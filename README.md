@@ -192,7 +192,7 @@ And then some special commands are :
 - `\d` matches digits
 - `\w` matches any word character (i.e. not spaces)
 - `\s` matches white space (space, tab new line etc.)
-- `\` is a general ''escape character`
+- `\` is a general 'escape character'
 And then there are positional commands:
 - `^` means that the position must be at the start of the line
 - `$` means it must appear at the end of the line
