@@ -114,7 +114,7 @@ nano 2021-observation.txt
 >> **Question for thought:** If you make a text file does it need to end in `.txt`?
 
 #### Looking at files (without editing them)
-Often we want to get a quick look at the contents of a file without potentially accidentally modifying it. For that, the command `less` is quite useful. Try typing `less 2019-observation.txt`. This should bring you into an interface where you can read and scroll but cannot edit the document. Type `q` to exit. Take a look at both files in this directory. 
+Often we want to get a quick look at the contents of a file without potentially accidentally modifying it. For that, the command `less` is quite useful. Try typing `less 2021-observation.txt`. This should bring you into an interface where you can read and scroll but cannot edit the document. Type `q` to exit. Take a look at both files in this directory. 
 
 Another convenient way to examine the content of a file is to print it to the screen or print it to `stdout` or Standard Output. The program `cat` or concatenate will print the entire contents of a file to the screen. Try it out by typing cat `2021-observations.txt`. 
 >How is this different than less? 
@@ -176,7 +176,7 @@ Regular expressions (abbreviated regex) are a concept used in many different pro
 
 A regular expression is a sequence of characters used to define a search to match strings (think find and replace in Word). A ‘string’ is a contiguous sequence of symbols or values. For example, a word, a date, a set of numbers (e.g., a phone number), or an alphanumeric value (e.g., an identifier). The wildcard `*` we just learned about is taken from regular expressions, but there are many more features to the complete regular expressions syntax:
 - Match on types of characters (e.g. upper case letters, digits, spaces, etc.).
--  Match patterns that repeat any number of times
+- Match patterns that repeat any number of times
 - Capture the parts of the original string that match your pattern
 
 Regular expressions look at both the actual charter and the  literal characters and `metacharacter`. A metacharacter is any American Standard Code for Information Interchange (ASCII) character that has a special meaning. Using these together, you can construct a regex for finding strings or files that match a pattern rather than a specific string. 
@@ -392,7 +392,8 @@ What does this script do?
 >> Can you generalize this to make it so that it returns the nth line of a file (as specified by a user)?  
 ### Finding things
 #### Finding words in text files
-Global regular expression print `grep` is a command that lets you search for words or regular expressions within files. Navigate to `unix-folders-master/writing/fables-poems` and let's give it a try.  We are going to search for the word Cat in the file `LaFontaine.txt`. 
+Global regular expression print `grep` is a command that lets you search for words or regular expressions within files. Navigate to `unix-folders-master/writing/fables-poems` and let's give it a try.  We are going to search for the word Cat in the file `LaFontaine.txt`.
+
 
 ```bash
 grep Cat LaFontaine.txt
