@@ -202,8 +202,11 @@ And then there are positional commands:
 Now, let's use it like we were using the wildcard `*`.
 
 > **Exercises**
+> 
 > Write a command that uses regex to list all files that contain a 5 or a 6 somewhere within their name. 
+> 
 > Write a command that lists all files that lists all files that end in 3, 7 or 8. 
+> 
 > Write a command that returns all files that contain a 2 followed by a 1 or an 8. 
 
 These are just the basics. If you are wanting to learn more about regex I recommend checking out: 
