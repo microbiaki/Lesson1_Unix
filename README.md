@@ -1,6 +1,6 @@
 # Lesson1_Unix
 
-Repo adapted from 
+Repo adapted from 2019 Environmental Bioinformatics prepared by @halexand
 
 ### Review
 **Last time we: **
@@ -17,9 +17,9 @@ Repo adapted from
 1. Get an introduction to HPCs in general and the HPC we will be using for this class (`poseidon.whoi.edu`) 
 2. Discuss remote machine access (`ssh`) and log on to the HPC
 3. Review the commands we learned at the end of last class 
-4.  Learn to work with files and directories
-5.  Learn about wildcards and regex
-6.  Learn how to deal with outputs & string commands things together 
+4. Review wildcards and regex
+5. Review outputs & string commands together
+6. Review scripts
 
 
 ## Logging on to the HPC
