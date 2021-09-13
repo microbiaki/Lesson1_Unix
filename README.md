@@ -271,7 +271,7 @@ You can see how these tools can be endlessly pieced together to do some really p
 > **Exercise Break:** Find a partner and try working through  these exercises.
 >- What is the difference in function between `sort` and `sort -n`. Try sorting one of the `.out` files to figure it out. 
 >- Write a command that will identify the index value ( number in the first column) that has the largest value in the third column of `hiztory.out` . Return *only* the number in the first column and save the input to a file called big index. Hint: look at the man pages to find useful flags. 
-> - All these files were created with the `$RANDOM` value in bash. Write a command that will combine (one on top of the other) all the `.out` files. I want to know what the 10 most abundant numbers in the second column are and how many times they occur. Write a command that will do that and save the output to `10bignums.out`.
+
 
 ### Automation with for loops
 **Loops** are a programming construct which allows us to perform a series of commands in the same way for each item in a list. Loops facilitate automation and save you time-- moreover loops reduce the amount of typing required (and mistakes made). So, if you ever find yourself thinking: gosh-- I want  to do this one thing to all 10502395 of my files. You should think: `for loop`.
@@ -379,20 +379,8 @@ As you can see at the top of the file there is a funny string `#!/bin/bash`. Thi
 
 Now, try running this script-- what do you think you would pass the script? 
 
-Now let's take a look at an even more complex script. Open up `make-data.sh`. 
 
-```bash
-#!/bin/bash
 
-for name in $(cat $1)
-do
-        bash script.sh $RANDOM > ${name}.out
-done
-```
-What does this script do? 
-
-> Now, let's take one of the commands wrote earlier and turn it into a script. Write a script to return the 25th line of a file provided by the user. 
->> Can you generalize this to make it so that it returns the nth line of a file (as specified by a user)?  
 ### Finding things
 #### Finding words in text files
 Global regular expression print `grep` is a command that lets you search for words or regular expressions within files. Navigate to `unix-folders-master/writing/fables-poems` and let's give it a try.  We are going to search for the word Cat in the file `LaFontaine.txt`.
