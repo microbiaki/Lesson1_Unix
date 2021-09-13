@@ -324,12 +324,12 @@ It will print the value of the variable `$file`.
 Variables are powerful because we can easily manipulate them to do things like find and replace values. Let's make a variable called `santa` and assign it the value `hohoho`. 
 ```bash
 santa=hohoho
-echo $santa
+echo ${santa}
 ```
 For example, if we wanted to change the letter `o` to an `a` we do this easily with [string manipulations](https://gist.github.com/magnetikonline/90d6fe30fc247ef110a1). 
 
 ```bash
-echo $santa//o/a
+echo ${santa//o/a}
 ```
 
 > Now, what if you wanted to change the name of all the `.out` to `.data`.  Write a for loop to do that. 
@@ -364,7 +364,7 @@ What is the output of the above?
 
 > Edit `hello.sh` again to  make it print a hello statement to two people. Note what happens when two inputs aren't provided. 
 
-Now let's look at the script I used to make all the fake data files we have been looking at. Use less to look at `script.sh`. 
+Now let's look at the script Harriet used to make all the fake data files we have been looking at. Use less to look at `script.sh`. 
 
 ```bash
 #!/bin/bash
