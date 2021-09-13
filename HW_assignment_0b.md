@@ -14,7 +14,7 @@ Take a look at both your files. Notice that for each sequence there is a header 
 
 3. Write an one-liner (commands one after the other using pipe) that extract all unique "starting" codons (triplets of nucleotides at the beginning of the sequence) and how many times they occur in descenting order. Save the command in the file `extract_starting_triplet` and the output in `counts_starting_triplet`.
 
-4. Transform the command above to a script that takes as input the name of a sequence file and produces a  `counts_starting_triplet` file. Save the script as `extract_starting_triplet.sh`. Test it to the Unicorn.fa
+4. Transform the command above to a script that takes as input the name of a sequence file and produces a  `counts_starting_triplet` file. Save the script as `extract_starting_triplet.sh`. Test it at the `Unicorn.fa`.
 
 5. The Unicorn.fa file appears to have a space after the > in the sequence header, which causes the software we use to process it to fail. Write a command to get rid of the space and write the fixed fasta to a new file called `unicorn-nospace.fa`. *Don't delete all the spaces in the fasta header!* Report the command you used in the file `remove_space`.
 
