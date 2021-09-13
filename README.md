@@ -92,7 +92,6 @@ Now, navigate into the newly created folder `unix-folders-master/`.
 Run `ls -F`. How many directories are there in this level? 
 
 
-
 #### Creating directories
 Now, let's navigate back to `unix-folders-master/`.  In this directory we are going to make a new directory called `observations`. Which command should we use?
 
@@ -149,6 +148,17 @@ cp paper-final.txt paper-v2.txt
 cp paper-final.txt paper-v3.txt
 ```
 > `cp` can also be used with directories. Try copying `extremely-old-drafts` to a new directory called `very-old-drafts`. What happened? Use `man` to figure out if there is a flag that can help you. 
+
+#### Transfering files and folders from your local computer to HPC
+Navigate back to `unix-folders-master/` and make a folder called `sequences`. Download the two sequence files (that you will find in slack) Griffin.fa and Unicorn.fa in your local computer. We are going to use the `scp` command to securely copy files and directories between remote hosts without starting an FTP session or logging into the remote systems explicitly. The scp command uses SSH to transfer data, so it requires a password or passphrase for authentication. Unlike rcp or FTP, scp encrypts both the file and any passwords exchanged so that anyone snooping on the network cannot view them. 
+
+Open a new **local** terminal  
+```bash
+scp ~/Downloads/Griffin.fa mpachiadaki@poseidon.whoi.edu:/vortexfs1/omics/env-bio/users/mpachiadaki/sequences
+```
+Now transfer the Unicorn.fa 
+
+You will work with these two files for you homework
 
 #### Removing things
 **On the command line... removal is permanent.**
