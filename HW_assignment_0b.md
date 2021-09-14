@@ -12,7 +12,7 @@ Take a look at both your files. Notice that for each sequence there is a header 
 
 2. Count how many sequences contain the codon AGT at the **beginning** (of the sequence) in `Griffin.fa`. Copy the command you used and the results in a file called `AGT_Griffin`.*Hint: check the grep command and the options it offers.*
 
-3. Write an one-liner (commands one after the other using pipe) that extract all unique "starting" codons (triplets of nucleotides at the beginning of the sequence) and how many times they occur in descenting order. Save the command in the file `extract_starting_triplet` and the output in `counts_starting_triplet`.
+3. Write an one-liner (commands one after the other using pipe) that extract all unique "starting" codons (triplets of nucleotides at the beginning of the sequence) and how many times they occur in descenting order. Save the command in the file `extract_starting_triplet` and the output in `counts_starting_triplet`. *Hint: check the commands grep, cut, sort and uniq*
 
 4. Transform the command above to a script that takes as input the name of a sequence file and produces a  `counts_starting_triplet` file. Save the script as `extract_starting_triplet.sh`. Test it at the `Unicorn.fa`.
 
