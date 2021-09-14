@@ -10,7 +10,7 @@ Take a look at both your files. Notice that for each sequence there is a header 
 
 1. Write a loop that will count the **number of sequences** of each file and write the output to a the file ```num_seqs``` . Also save your command in a separate file `num_seqs_command`. *Hint: the number of lines doesn't equal to the number of sequences in these files. Think if there are elements that you can count.*
 
-2. Count how many sequences contain the codon AGT at the **beginning** (of the sequence) in `Griffin.fa`. Copy the command you used and the results in a file called `AGT_Griffin`.*Hint: check the grep command and the options it offers.*
+2. Count how many sequences contain the codon AGT at the **beginning** (of the sequence) in `Griffin.fa`. Copy the command you used and the nember of sequences in a file called `AGT_Griffin`.*Hint: check the grep command and the options it offers.*
 
 3. Write an one-liner (commands one after the other using pipe) that extract all unique "starting" codons (triplets of nucleotides at the beginning of the sequence) and how many times they occur in descenting order. Save the command in the file `extract_starting_triplet` and the output in `counts_starting_triplet`. *Hint: check the commands grep, cut, sort and uniq*
 
@@ -22,6 +22,22 @@ Take a look at both your files. Notice that for each sequence there is a header 
 
 7. Save all your command history from this homework with:
 ```history > homework.log```
+
+
+For the successful completion of your homework, you should have the files. In your `results` directory you create (inside `unix-folders-master\sequences`) :
+- `num_seqs`
+- `num_seqs_command`
+- `AGT_Griffin`
+- `extract_starting_triplet`
+- `extract_starting_triplet.sh`
+- `unicorn-nospace.fa`
+- `remove_space`
+- `griffin-headers.txt` and `unicorn-headers.txt`
+- `griffin-cleaned.fa` and `unicorn-cleaned.fa`
+- `clean_headers`
+- `homework.log`
+
+In most of the problems, there are more than one correct answers :) 
 
 
 
