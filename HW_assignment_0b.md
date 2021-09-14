@@ -24,7 +24,7 @@ Take a look at both your files. Notice that for each sequence there is a header 
 ```history > homework.log```
 
 
-For the successful completion of your homework, you should have the files. In your `results` directory you create (inside `unix-folders-master\sequences`) :
+For the successful completion of your homework, you should have the following files in your `results` directory you create (inside `unix-folders-master\sequences`) :
 - `num_seqs`
 - `num_seqs_command`
 - `AGT_Griffin`
